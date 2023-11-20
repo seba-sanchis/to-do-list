@@ -31,6 +31,7 @@
 		E65BCA752B086BD600B33C60 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65BCA742B086BD600B33C60 /* ItemViewModel.swift */; };
 		E6C114C32B097BB100E9F7A9 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C114C22B097BB100E9F7A9 /* ButtonView.swift */; };
 		E6E68E0D2B0BB26B00BC05AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6E68E0C2B0BB26B00BC05AC /* GoogleService-Info.plist */; };
+		E6E68E102B0BBCB400BC05AC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E68E0F2B0BBCB400BC05AC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		E65BCA742B086BD600B33C60 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
 		E6C114C22B097BB100E9F7A9 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		E6E68E0C2B0BB26B00BC05AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E6E68E0F2B0BBCB400BC05AC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				E65BCA572B08680E00B33C60 /* Models */,
 				E65BCA562B08680100B33C60 /* ViewModels */,
 				E65BCA552B0867F400B33C60 /* Views */,
+				E6E68E112B0BBCEC00BC05AC /* Extensions */,
 				E6173CBC2B081BFB007C878C /* to_do_listApp.swift */,
 				E6173CC02B081BFC007C878C /* Assets.xcassets */,
 				E6E68E0C2B0BB26B00BC05AC /* GoogleService-Info.plist */,
@@ -154,6 +157,14 @@
 				E6C114C22B097BB100E9F7A9 /* ButtonView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		E6E68E112B0BBCEC00BC05AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E6E68E0F2B0BBCB400BC05AC /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +253,7 @@
 				E65BCA732B086BCB00B33C60 /* RegisterViewModel.swift in Sources */,
 				E65BCA592B08694200B33C60 /* ProfileView.swift in Sources */,
 				E65BCA632B086A8400B33C60 /* ItemView.swift in Sources */,
+				E6E68E102B0BBCB400BC05AC /* Extensions.swift in Sources */,
 				E6C114C32B097BB100E9F7A9 /* ButtonView.swift in Sources */,
 				E65BCA612B086A0400B33C60 /* RegisterView.swift in Sources */,
 				E65BCA6B2B086B9700B33C60 /* ProfileViewModel.swift in Sources */,

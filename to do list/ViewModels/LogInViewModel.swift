@@ -20,7 +20,6 @@ class LogInViewModel: ObservableObject {
             return
         }
         
-        Auth.auth()
         Auth.auth().signIn(withEmail: email, password: password)
     }
     
