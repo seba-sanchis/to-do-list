@@ -8,11 +8,31 @@
 import SwiftUI
 
 struct ListView: View {
+    @StateObject var viewModel = ListViewModel()
+    
+    private let userId: String
+    
+    init(userId: String) {
+        self.userId = userId
+    }
+    
     var body: some View {
-        Text("Welcome!")
+        NavigationView {
+            VStack {
+                
+            }
+            .navigationTitle("To do list")
+            .toolbar {
+                Button {
+                    // action
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
+        }
     }
 }
 
 #Preview {
-    ListView()
+    ListView(userId: "")
 }
