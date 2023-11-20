@@ -31,7 +31,7 @@ struct LogInView: View {
                     }
                     .padding(48)
                     
-                    // LogIn form
+                    // Log in form
                     Form {
                         TextField("Email", text: $viewModel.email)
                             .autocapitalization(.none)
@@ -39,16 +39,20 @@ struct LogInView: View {
                         
                         SecureField("Password", text: $viewModel.password)
                         
+                        if !viewModel.errorMessage.isEmpty {
+                            Text(viewModel.errorMessage)
+                                .foregroundColor(Color.red)
+                        }
+                        
                         HStack {
                             Spacer()
                             ButtonView(title: "Log In") {
-                                
+                                viewModel.login()
                             }
                             Spacer()
                         }
 
                     }
-                    .padding([.top, .bottom], 96)
                     
                     // Create account
                     VStack {

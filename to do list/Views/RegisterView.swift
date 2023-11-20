@@ -52,7 +52,6 @@ struct RegisterView: View {
                     }
                     
                 }
-                .padding([.top, .bottom], 88)
                 
                 // Create account
                 VStack {
