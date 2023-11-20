@@ -9,13 +9,14 @@ import SwiftUI
 import FirebaseFirestore
 
 struct ListView: View {
-    @StateObject var viewModel = ListViewModel()
+    @StateObject var viewModel: ListViewModel
     @FirestoreQuery var items: [Item]
     
     init(userId: String) {
         self._items = FirestoreQuery(
             collectionPath: "users/\(userId)/todos"
         )
+        self._viewModel = StateObject(wrappedValue: ListViewModel(userId: userId))
     }
     
     var body: some View {
@@ -28,8 +29,8 @@ struct ListView: View {
                                 viewModel.delete(id: item.id)
                             } label: {
                                 Text("Delete")
-                                    .foregroundColor(.red)
                             }
+                            .tint(.red)
                         }
                 }
                 .listStyle(PlainListStyle())
