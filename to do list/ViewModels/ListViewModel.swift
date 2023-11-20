@@ -8,5 +8,7 @@
 import Foundation
 
 class ListViewModel: ObservableObject {
+    @Published var showingNewItemView = false
+    
     init() {}
 }

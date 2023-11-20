@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LogInView: View {
     
-   @StateObject var viewModel = LogInViewModel()
+    @StateObject var viewModel = LogInViewModel()
     
     var body: some View {
         NavigationView {
@@ -44,14 +44,10 @@ struct LogInView: View {
                                 .foregroundColor(Color.red)
                         }
                         
-                        HStack {
-                            Spacer()
-                            ButtonView(title: "Log In") {
-                                viewModel.login()
-                            }
-                            Spacer()
+                        ButtonView(title: "Log In") {
+                            viewModel.login()
                         }
-
+                        
                     }
                     
                     // Create account

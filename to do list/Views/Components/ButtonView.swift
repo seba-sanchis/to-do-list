@@ -23,6 +23,7 @@ struct ButtonView: View {
                 .font(.system(size: 24, weight: .semibold))
                 .cornerRadius(.infinity)
         }
+        .frame(maxWidth: .infinity)
     }
 }
 

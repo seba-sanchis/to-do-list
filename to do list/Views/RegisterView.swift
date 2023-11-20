@@ -40,14 +40,8 @@ struct RegisterView: View {
                     
                     SecureField("Password", text: $viewModel.password)
                     
-                    HStack {
-                        Spacer()
-                        
-                        ButtonView(title: "Create account") {
-                            viewModel.register()
-                        }
-                        
-                        Spacer()
+                    ButtonView(title: "Create account") {
+                        viewModel.register()
                     }
                     
                 }
