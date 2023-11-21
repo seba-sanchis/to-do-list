@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ItemView: View {
-    @StateObject var viewModel = ProfileViewModel()
+    @StateObject var viewModel = ItemViewModel()
     let item: Item
     
     var body: some View {

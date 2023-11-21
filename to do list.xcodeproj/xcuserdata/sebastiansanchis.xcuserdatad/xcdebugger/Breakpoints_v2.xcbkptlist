@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "DE5637AE-C48E-41B3-AE4C-97E364E71E52"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "to do list/ViewModels/LogInViewModel.swift"
@@ -17,6 +17,84 @@
             startingLineNumber = "36"
             endingLineNumber = "36"
             landmarkName = "validate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DE5637AE-C48E-41B3-AE4C-97E364E71E52 - 3ce6ad8058ec36ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "to_do_list.LogInViewModel.validate() -&gt; Swift.Bool"
+                  moduleName = "to do list"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastiansanchis/Documents/GitHub/to-do-list/to%20do%20list/ViewModels/LogInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "DE5637AE-C48E-41B3-AE4C-97E364E71E52 - 3ce6ad8058ec3594"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "to_do_list.LogInViewModel.validate() -&gt; Swift.Bool"
+                  moduleName = "to do list"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastiansanchis/Documents/GitHub/to-do-list/to%20do%20list/ViewModels/LogInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "DE5637AE-C48E-41B3-AE4C-97E364E71E52 - 3ce6ad8058ec3594"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "to_do_list.LogInViewModel.validate() -&gt; Swift.Bool"
+                  moduleName = "to do list"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastiansanchis/Documents/GitHub/to-do-list/to%20do%20list/ViewModels/LogInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "DE5637AE-C48E-41B3-AE4C-97E364E71E52 - 3ce6ad8058ec35f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "to_do_list.LogInViewModel.validate() -&gt; Swift.Bool"
+                  moduleName = "to do list"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sebastiansanchis/Documents/GitHub/to-do-list/to%20do%20list/ViewModels/LogInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A60B726-10E2-4AEB-8262-476356E193DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "to do list/ViewModels/ProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "fetchUser()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

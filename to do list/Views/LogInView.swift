@@ -41,7 +41,7 @@ struct LogInView: View {
                         
                         if !viewModel.errorMessage.isEmpty {
                             Text(viewModel.errorMessage)
-                                .foregroundColor(Color.red)
+                                .foregroundColor(.red)
                         }
                         
                         ButtonView(title: "Log In") {
